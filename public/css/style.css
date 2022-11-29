@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  color: #333;
+}
+
+blockquote {
+  border: none;
+  font-style: italic;
+  margin: 0.5rem;
+}
+
+blockquote > p {
+  margin-bottom: 0.5em;
+}
+
+blockquote cite {
+  display: block;
+  text-align: right;
+}
+
+/****************************************
+ * welcom
+ ****************************************/
+.welcome {
+  background: linear-gradient(160deg,rgba(140, 140, 14, 0.8),rgba(17, 50, 127, 0.8)),url('../img/uec-fountain.jpg') no-repeat 50% 50%/cover;
+  text-align: center;
+  color: #eaeaea;
+  margin-bottom: 30px;
+  height: 100vh;
+  max-height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome .title {
+  font-weight: bold;
+  font-size: 10vw;
+}
+
+.welcome .description {
+  font-size: 16px;
+}
+
+@media (min-width: 900px) {
+  .welcome .title {
+    font-size: 90px;
+  }
+  .welcome .description {
+    font-size: 20px;
+  }
+}
+
+.welcome .action-menu {
+  margin-top: 70px;
+}
+
+.welcome .action-menu .button {
+  font-size: 2rem;
+  font-weight: 300;
+  border-radius: 0;
+  margin: 10px;
+  line-height: inherit;
+  height: auto;
+  padding: 10px 14px;
+  background: #c7843f;
+  border: none;
+}
+
+
+.welcome .action-menu .button #deadline {
+  font-size: 1.2rem;
+}
+
+/****************************************
+ * content
+ ****************************************/
+.content {
+  margin: 10px;
+}
+
+.content .title {
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+
+/****************************************
+ * footer
+ ****************************************/
+.footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  border-top: 1px #ddd solid;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 0.8em;
+}
+
+.footer p {
+  margin: 0.5em;
+}
